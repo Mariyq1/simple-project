@@ -7,6 +7,7 @@ const Navbar = ()=>{
         <div className= "navbar">
             <div className = "navbar-links">
                 <NavLink to = "counter">Counter</NavLink>
+                <NavLink to = "quiz">Quiz</NavLink>
             </div>
         </div>
     )
