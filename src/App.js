@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './navbar/Navbar';
 import Counter from './pages/counter/Counter';
 import Quiz from './pages/quiz/Quiz';
+import UsersList from './pages/users/UsersList';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route>
           <Route path="/counter" element={<Counter/>}/>
           <Route path="/quiz" element = {<Quiz/>}/>
+          <Route path="/users" element = {<UsersList/>}/>
         </Route>
       </Routes>
     </div>
